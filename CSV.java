@@ -1,4 +1,3 @@
-package utilities;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -10,7 +9,7 @@ import java.util.List;
 public class CSV {
 
     // This function will read data from a CSV file and return a list
-    public List<String[]> read(String file) {
+    public static List<String[]> read(String file) {
         List<String[]> data = new LinkedList<String[]>();
 
         String dataRow;

@@ -16,8 +16,8 @@ public class BankAccountMain {
         // chkacc1.showInfo();
 
         // read a csv file then create new accounts based on that data
-        String file = "C:\\SDETuniversity\\Files\\NewBankAccounts.csv";
-        List<String[]> newAccountHolders = utilities.CSV.read(file);
+        String file = "C:/Users/owner/Desktop/WINProgram/Java/udamy/bankadministrator/utilities/info.csv";
+        List<String[]> newAccountHolders = CSV.read(file);
         for (String[] accountHolder : newAccountHolders) {
             String name = accountHolder[0];
             String sSN = accountHolder[1];
